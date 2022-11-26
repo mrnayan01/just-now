@@ -22,12 +22,12 @@ def psb(z):
 #Check Update
 def update():
     try:
-        toolVersion = open("./more/.version", "r").read()
+        toolVersion = open("main.version", "r").read()
     except:
         toolVersion = "ToxicNoob"
     
     try:
-        mainVersion = requests.get("https://raw.githubusercontent.com/Toxic-Noob/ToxicBomber/main/more/.version").text
+        mainVersion = requests.get("https://raw.githubusercontent.com/mrnayan01/just-now/main/.version").text
     except:
         psb("\n\033[92m    [\033[91m!\033[92m] Please Connect To The Internet!")
         time.sleep(1)
@@ -42,13 +42,13 @@ def update():
     time.sleep(0.5)
     psb("\033[92m    [\033[37m!\033[92m] Updating Tool...")
     
-    os.system("cd .. && rm -rf ToxicBomber && git clone https://github.com/Toxic-Noob/ToxicBomber > /dev/null 2>&1")
+    os.system("cd .. && rm -rf Just-now && git clone https://github.com/mrnayan01/just-now > /dev/null 2>&1")
     
     psb("\n\033[92m    [\033[37m*\033[92m] Update Complete!")
     psb("\033[92m    [\033[37m*\033[92m] Starting Tool...")
     time.sleep(0.8)
     
-    os.system("cd .. && cd ToxicBomber && python Tbomb.py")
+    os.system("cd .. && cd just-now && python Tbomb.py")
 
 
 #Logo
