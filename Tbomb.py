@@ -68,7 +68,7 @@ def logo():
 
 
 #Options Banner
-def logo():
+def banner():
     amount = str(main.amount)
     if (len(amount) == 1):
         amount = amount + "                    "
