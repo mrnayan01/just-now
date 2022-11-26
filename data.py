@@ -14,10 +14,10 @@ useragent = random.choice(useragentList)
 #Access Checking Function
 def check():
     file = open("Tbomb.py", "r").read()
-    if not ("Author : ToxicNoob" in file) or not ("GitHub : https://github.com/Toxic-Noob" in file) or not ("ToxicBomber" in file) or not ("https://raw.githubusercontent.com/Toxic-Noob/ToxicBomber/main/more/.version" in file):
+    if not ("Author : MR.NAYAN" in file) or not ("GitHub : https://github.com/mrnayan01" in file) or not ("just-now" in file) or not ("https://raw.githubusercontent.com/mrnayan01/just-now/main/.version" in file):
         print("\n\033[92m[\033[91m!\033[92m] You Have No Permission To Access This Tool!")
         print("\033[92m[\033[91m!\033[92m] Delete This Tool and git clone Again To Use It!")
-        print("\n\033[92m[\033[91m*\033[92m] Tool Link: \033[37mhttps://github.com/Toxic-Noob/ToxicBomber\n")
+        print("\n\033[92m[\033[91m*\033[92m] Tool Link: \033[37mhttps://github.com/mrnayan01/just-now\n")
         sys.exit()
 
 #Check Permission
